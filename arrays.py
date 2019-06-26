@@ -35,3 +35,11 @@ names = ["Nick", "Mary", "Alex", "Jerry"]
 
 # Array of numbers and names
 numbersAndNames = ["Alex", 10, 5, "Nick"]
+
+# Create an Array with 5 names, Run a loop to display all names
+
+names = ["Nick", "Mary", "Mike", "Sam", "Stacy"]
+
+for index in range(0, len(names)):
+    name = names[index]
+    print(f"The value of index {index} is {name}'s' name.")
